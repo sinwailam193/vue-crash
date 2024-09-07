@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HelloItem from "../components/HelloItem.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <main>
+        <p>Home page</p>
+        <HelloItem />
+    </main>
 </template>
