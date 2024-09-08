@@ -1,10 +1,12 @@
 <script setup>
-import HelloItem from "../components/HelloItem.vue";
+import HeroItem from "../components/HeroItem.vue";
 </script>
 
 <template>
     <main>
-        <p>Home page</p>
-        <HelloItem />
+        <HeroItem
+            title="Become a Vue dev"
+            subtitle="Find the Vue job that fits your skills and needs"
+        />
     </main>
 </template>
