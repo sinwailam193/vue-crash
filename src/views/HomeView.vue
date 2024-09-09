@@ -20,7 +20,7 @@ import JobListing from "../components/JobListing.vue";
                         subtitle="Browse our Vue jobs and start your career today"
                     />
                     <CardItem
-                        link="/add-job"
+                        link="/jobs/add"
                         :isEmployer="true"
                         title="For employers"
                         subtitle="List your job to find the perfect developer for the role"
