@@ -26,6 +26,13 @@ const router = createRouter({
             }
         },
         {
+            path: "/mindar",
+            name: "MindAR",
+            strict: true,
+            sensitive: true,
+            component: () => import("../views/MindARView.vue")
+        },
+        {
             path: "/jobs/:id",
             name: "JobsDetail",
             strict: true,
